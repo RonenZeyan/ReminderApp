@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    android:orientation="vertical"
+    tools:context=".AddNewTaskFragment">
+
+    <TextView
+        android:id="@+id/NewTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="#673AB7"
+        android:gravity="bottom|center"
+        android:text="Add New Task"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#673AB7"
+        android:gravity="center"
+        android:text="Lets be productive and finish quickly!!!"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="567dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/circlelinearlayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tasknameTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/TaskNameEditTxt"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/et_cust"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Task Name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            tools:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DateTaskTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/selectDateButton"
+            style="?android:spinnerStyle"
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="select Date"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TimeTaskTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Time"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/selectTime"
+            style="?android:spinnerStyle"
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="select Time"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TaskDetailsTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Details"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="365dp"
+            android:layout_height="76dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/et_cust"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Task Details"
+            android:inputType="textMultiLine"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/AddTaskButton"
+            android:layout_width="349dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:background="@drawable/et_cust"
+            android:text="Add Task"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/CancelButton"
+            android:layout_width="349dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:background="@drawable/et_cust"
+            android:text="Cancel"
+            android:textColor="#838383"
+            android:textStyle="bold"
+            tools:backgroundTint="#D8D8D8" />
+
+    </LinearLayout>
+
+</LinearLayout>

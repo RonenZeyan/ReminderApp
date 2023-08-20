@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/RestoreLastDeletedItem"
+        android:title="RestoreDeletedTask"/>
+    <item
+        android:id="@+id/infoItem"
+        android:title="info"/>
+
+    <item
+        android:id="@+id/exitItem"
+        android:title="exit" />
+
+
+
+    <item
+        android:id="@+id/settingItem"
+        android:title="sort Tasks By date"
+        android:icon="@drawable/baseline_settings_24"
+        app:showAsAction="always"/>
+
+
+
+
+
+</menu>

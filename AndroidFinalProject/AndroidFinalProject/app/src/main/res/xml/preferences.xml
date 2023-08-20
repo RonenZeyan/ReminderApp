@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="display items setting"
+    android:icon="@drawable/baseline_display_settings_24"></PreferenceCategory>
+
+    <SwitchPreference
+        android:key="SwitchSaveSort"
+        android:title="Sort by date"
+        android:summary="sort tasks by date near to far"/>
+</PreferenceScreen>
